@@ -1,0 +1,238 @@
+.top_page_info {
+  width: 100%;
+  height: 60px;
+  background: #333333;
+  padding: 0;
+  margin: 0;
+}
+
+.top_page_content {
+  margin-left: 24px;
+  margin-right: 24px;
+  list-style: none;
+}
+
+.top_page_content svg {
+  font-size: 24px;
+}
+
+.top_page_content li {
+  font-size: 14px;
+  color: #ffffff;
+  float: right;
+  vertical-align: middle;
+  margin: auto 16px;
+  cursor: pointer;
+}
+
+.top_page_content span {
+  line-height: 28px;
+  vertical-align: top;
+}
+
+.top_menu-Logo {
+  margin-top: 30px;
+  margin-left: 200px;
+  
+}
+
+.buttonApp {
+  width: 200px;
+  height: 50px;
+  font-size: 16px;
+  padding: 8px 25px;
+  background-color: #7f5dce;
+  border: 2px solid #ffffff;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+}
+
+.buttonApp:hover {
+  background-color: white;
+  border: 2px solid #7f5dce;
+  color: #7f5dce;
+  transition: all 0.2s ease-in;
+  cursor: pointer;
+}
+
+.buttonApp:click {
+  background-color: 45336e;
+  border: 2px solid #45336e;
+  color: #7f5dce;
+  transition: all 0.2s ease-in;
+  cursor: pointer;
+}
+
+.btn-round {
+  width: 30px;
+  height: 30px;
+  border-radius: 50em;
+  font-size: 16px;
+  margin: 0 20px;
+  border: none;
+}
+
+.btn-round svg {
+  margin-top: 4px;
+}
+
+.btn-round:hover {
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+  background: white;
+}
+
+.btn-round.btn-like {
+  border: 1px dotted red;
+  background: white;
+}
+
+.btn-round:active svg,
+.btn-round:focus svg {
+  -webkit-animation: jello-horizontal 0.9s both;
+  animation: jello-horizontal 0.9s both;
+  transition: all 0.3s ease-in;
+}
+
+@-webkit-keyframes jello-horizontal {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+  30% {
+    -webkit-transform: scale3d(1.25, 0.75, 1);
+    transform: scale3d(1.25, 0.75, 1);
+  }
+  40% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+    transform: scale3d(0.75, 1.25, 1);
+  }
+  50% {
+    -webkit-transform: scale3d(1.15, 0.85, 1);
+    transform: scale3d(1.15, 0.85, 1);
+  }
+  65% {
+    -webkit-transform: scale3d(0.95, 1.05, 1);
+    transform: scale3d(0.95, 1.05, 1);
+  }
+  75% {
+    -webkit-transform: scale3d(1.05, 0.95, 1);
+    transform: scale3d(1.05, 0.95, 1);
+  }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+@keyframes jello-horizontal {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+  30% {
+    -webkit-transform: scale3d(1.25, 0.75, 1);
+    transform: scale3d(1.25, 0.75, 1);
+  }
+  40% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+    transform: scale3d(0.75, 1.25, 1);
+  }
+  50% {
+    -webkit-transform: scale3d(1.15, 0.85, 1);
+    transform: scale3d(1.15, 0.85, 1);
+  }
+  65% {
+    -webkit-transform: scale3d(0.95, 1.05, 1);
+    transform: scale3d(0.95, 1.05, 1);
+  }
+  75% {
+    -webkit-transform: scale3d(1.05, 0.95, 1);
+    transform: scale3d(1.05, 0.95, 1);
+  }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.list_of_repos {
+  width: 95%;
+  list-style-type: none;
+  margin: 2% 5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 8px;
+}
+
+.items_list_repos {
+    width: 25%;
+    height: 50px;
+    border: 1px dotted #333333;
+    background-color:#333333;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;
+    padding: 8px;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+.w_100px {
+    width: 100px;
+    background: #bb9223;
+    height: 100%;
+  }
+
+
+  .w_150px {
+    background: red;
+    width: 150px;
+    height: 100vh;
+    z-index: -1;
+    background: #7f5dce;
+  }
+
+@media (max-width: 900px) {
+    .list_of_repos {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 4px;
+    }
+
+    .items_list_repos {
+        width: 90%;
+        height: 50px;
+        border: 1px solid #333333;
+        border-radius: 10px;
+    }
+
+}
+
+.row {
+  height: 30px;
+  background: #333333;
+  padding: 16px;
+}
+.button_pagination {
+  padding: 8px 16px;
+  background: #7f5dce;
+  color: #ffffff;
+  border: none;
+  border-radius: 16px;
+  float: right;
+}
+
+.button_pagination:hover, .button_pagination:focus {
+  cursor:pointer;
+  background: #fff;
+  transition: all 0.2s ease-in-out;
+  color: #45336e;
+}

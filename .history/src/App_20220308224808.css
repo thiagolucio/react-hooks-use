@@ -1,0 +1,11 @@
+.container-column {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cinquenta {
+    width: 50%;
+    height: auto;
+    margin: auto;
+}

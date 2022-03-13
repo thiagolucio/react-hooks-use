@@ -1,0 +1,22 @@
+import React from "react";
+import './App.css';
+
+import UseStateExample from "./Components/UseStateExample";
+import UseEffectExample from "./Components/UseEffectExample";
+
+
+
+function App() {
+  return (
+    <>
+    <div class="50">
+      <UseStateExample />    
+    </div>
+    <div class="50">
+      <UseEffectExample/>     
+    </div>
+    </>
+  );
+}
+
+export default App;

@@ -1,0 +1,70 @@
+/* .avatar img {
+    border: 2px solid #7f5dce;
+} */
+
+.badge-avatar {
+    width: 24px;
+    height: 24px;
+    background-color: #6909c4;
+    border: none;
+    border-radius: 50em;
+    margin-top: -20px;
+    position: absolute;
+}
+
+.badge-avatar > span {
+    color: #fff;
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 24px;
+    margin-left: 3px;
+}
+
+.heartbeat{-webkit-animation:heartbeat 2.5s ease-in-out 5s infinite both;animation:heartbeat 2.5s ease-in-out 5s infinite both}
+ @-webkit-keyframes heartbeat{from{-webkit-transform:scale(1);transform:scale(1);-webkit-transform-origin:center center;transform-origin:center center;-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}10%{-webkit-transform:scale(.91);transform:scale(.91);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}17%{-webkit-transform:scale(.98);transform:scale(.98);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}33%{-webkit-transform:scale(.87);transform:scale(.87);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}45%{-webkit-transform:scale(1);transform:scale(1);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}}@keyframes heartbeat{from{-webkit-transform:scale(1);transform:scale(1);-webkit-transform-origin:center center;transform-origin:center center;-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}10%{-webkit-transform:scale(.91);transform:scale(.91);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}17%{-webkit-transform:scale(.98);transform:scale(.98);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}33%{-webkit-transform:scale(.87);transform:scale(.87);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}45%{-webkit-transform:scale(1);transform:scale(1);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}}
+
+
+ .title_avatar {
+     font-size: 14px;
+     color: #e9ece3;
+     font-weight: 700;
+     margin-top: 20px;
+     text-align: center;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     display: inline-flex;
+ }
+
+ .title_avatar svg {
+     margin-right: 4px;
+ }
+
+.menu {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 30%;
+}
+
+ .menu ul {
+     list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+ }
+
+ .menu ul li {
+     color: white;
+     text-align: center;
+     width: 100%;
+     font-size: 36px;    
+ }
+
+ .menu ul li svg {
+     color: #fff;
+ }
+
+ .menu ul li svg:hover {
+    color: #18f0af;
+    transition: all 0.2s ease-in-out;
+}
+

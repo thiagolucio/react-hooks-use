@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+.flex-column {
+    flex-direction: column;
+}
+
+.button-toggle, .button-toggle-round {
+    background-color: #7f5dce;
+    padding: 8px 18px;
+    border: none;
+    border-radius: 50em;
+    color: white;
+    margin: 20px;    
+}
+
+.button-toggle-round icon {
+    transition: all 0.5s ease-in-out;
+}
+
+
+.button-toggle:hover {
+    cursor: pointer;
+
+}

@@ -1,0 +1,63 @@
+.buttonApp {
+    width: 200px;
+    height: 50px;
+    font-size: 16px;
+    padding: 8px 25px;
+    background-color: #7f5dce;
+    border: 2px solid #ffffff;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+}
+
+.buttonApp:hover {
+    background-color: white;
+    border: 2px solid #7f5dce;
+    color: #7f5dce;
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+}
+
+.buttonApp:click {
+    background-color: 45336e;
+    border: 2px solid #45336e;
+    color: #7f5dce;
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+}
+
+.badge-title {
+    width: 100%;
+    height: 40px;
+    font-size: 24px;
+    padding: 8px 20px;
+    background-color: #59b3ab;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+}
+
+.btn-round {
+    width: 30px;
+    height: 30px;
+    border-radius: 50em;
+    font-size: 16px;
+    margin: 0 16px;
+    border: none;
+}
+
+.btn-round svg {
+    margin-top: 4px
+}
+
+.btn-round:hover {
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+
+.btn-round.btn-unlike {
+    background: red;
+    border: 1px solid red;
+}

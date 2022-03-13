@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+.flex-column {
+    flex-direction: column;
+}
+
+.button-toggle {
+    background-color: #7f5dce;
+    padding: 8px 18px;
+    border: none;
+}
