@@ -3,4 +3,4 @@
  ``` npm install ``` 
  ``` npm start ```
 
- - useState, useEffect, 
+ - useState, useEffect examples justo to trainning
